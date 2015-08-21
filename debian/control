@@ -1,0 +1,15 @@
+Source: uauhelper
+Section: unknown
+Priority: optional
+Maintainer: Josua Mayer <privacy@not.given>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+#Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://anonscm.debian.org/collab-maint/uauhelper.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/uauhelper.git;a=summary
+
+Package: uauhelper
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: update-alternatives helper
+ Allows unprivileged users to call update-alternatives (DANGEROUS).
